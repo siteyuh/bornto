@@ -2,20 +2,33 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Document</title>
+  <style>
+    .wrapper {
+      max-width: 640px;
+      width: 95%;
+      margin: auto;
+    }
+    audio {
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-  <div>
-    <p>Intro/Outro</p>
-    <audio src="IntroOutro.m4a?raw=true" controls></audio>
-  </div>
-  <div>
-    <p>1st verse</p>
-    <audio src="Averse.m4a?raw=true" controls></audio>
-  </div>
-  <div>
-    <p>2nd verse</p>
-    <audio src="Bverse.m4a?raw=true" controls></audio>
+  <div class="wrapper">
+    <div>
+      <p>Intro/Outro</p>
+      <audio src="IntroOutro.m4a?raw=true" controls></audio>
+    </div>
+    <div>
+      <p>1st verse</p>
+      <audio src="Averse.m4a?raw=true" controls></audio>
+    </div>
+    <div>
+      <p>2nd verse</p>
+      <audio src="Bverse.m4a?raw=true" controls></audio>
+    </div>
   </div>
 </body>
 </html>
